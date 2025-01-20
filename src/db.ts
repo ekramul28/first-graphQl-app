@@ -101,6 +101,16 @@ const products = [
     category: "Office Furniture",
   },
 ];
+
+const categories = [
+  { id: "1", name: "Electronics" },
+  { id: "2", name: "Fashion" },
+  { id: "3", name: "Health & Beauty" },
+  { id: "4", name: "Sports & Outdoors" },
+  { id: "5", name: "Home & Kitchen" },
+];
+
 export const db = {
   products,
+  categories,
 };
