@@ -7,7 +7,7 @@ const products = [
     price: 49.99,
     quantity: 10,
     onStock: true,
-    category: "Electronics",
+    categoryId: "4",
   },
   {
     id: "2",
@@ -17,7 +17,7 @@ const products = [
     price: 29.99,
     quantity: 25,
     onStock: true,
-    category: "Gaming Accessories",
+    categoryId: "3",
   },
   {
     id: "3",
@@ -27,7 +27,7 @@ const products = [
     price: 39.99,
     quantity: 15,
     onStock: true,
-    category: "Office Supplies",
+    categoryId: "4",
   },
   {
     id: "4",
@@ -38,7 +38,7 @@ const products = [
     price: 99.99,
     quantity: 5,
     onStock: true,
-    category: "Electronics",
+    categoryId: "5",
   },
   {
     id: "5",
@@ -48,7 +48,7 @@ const products = [
     price: 79.99,
     quantity: 0,
     onStock: false,
-    category: "Electronics",
+    categoryId: "5",
   },
   {
     id: "6",
@@ -58,7 +58,7 @@ const products = [
     price: 19.99,
     quantity: 30,
     onStock: true,
-    category: "Photography",
+    categoryId: "4",
   },
   {
     id: "7",
@@ -68,7 +68,7 @@ const products = [
     price: 299.99,
     quantity: 8,
     onStock: true,
-    category: "Electronics",
+    categoryId: "3",
   },
   {
     id: "8",
@@ -78,7 +78,7 @@ const products = [
     price: 24.99,
     quantity: 50,
     onStock: true,
-    category: "Accessories",
+    categoryId: "2",
   },
   {
     id: "9",
@@ -88,7 +88,7 @@ const products = [
     price: 59.99,
     quantity: 12,
     onStock: true,
-    category: "Electronics",
+    categoryId: "1",
   },
   {
     id: "10",
@@ -98,7 +98,7 @@ const products = [
     price: 149.99,
     quantity: 3,
     onStock: true,
-    category: "Office Furniture",
+    categoryId: "1",
   },
 ];
 

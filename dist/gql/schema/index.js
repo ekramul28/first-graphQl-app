@@ -7,7 +7,7 @@ export const typeDefs = `#graphql
           price:Float
           quantity:Int
           onStock:Boolean
-          category:String
+          category:Category
      }
 
      type Category{
@@ -19,6 +19,6 @@ export const typeDefs = `#graphql
           products:[Product]
           product(productId:ID!):Product
           categories:[Category]
-          category:Category
+          category(categoryId:ID!):Category
      }
 `;
